@@ -39,14 +39,17 @@ This repository contains links and configuration details for popular public DNS 
 - Primary: `8.8.8.8`
 - Secondary: `8.8.4.4`
 
+**DNS-over-HTTPS URL:**
+- `https://dns.google/dns-query`
+
 **Features:**
 - Fast and reliable
-- No HTTPS/DNS-over-HTTPS URL available
+- DNS-over-HTTPS support
 - Compatible with all devices
 
 **Особенности:**
 - Быстрый и надёжный
-- URL для HTTPS не предоставлен
+- Поддержка DNS-over-HTTPS
 - Совместим со всеми устройствами
 
 ---
@@ -58,7 +61,7 @@ This repository contains links and configuration details for popular public DNS 
 - Secondary: `1.0.0.1`
 
 **DNS-over-HTTPS URL:**
-- `security.cloudflare-dns.com`
+- `https://security.cloudflare-dns.com/dns-query`
 
 **Features:**
 - Focus on privacy and security
@@ -75,7 +78,7 @@ This repository contains links and configuration details for popular public DNS 
 ### 🟢 AdGuard DNS
 
 **DNS-over-HTTPS URL:**
-- `dns.adguard-dns.com`
+- `https://dns.adguard-dns.com/dns-query`
 
 **iOS/iPhone Configuration:**
 - Profile-based setup: [https://adguard-dns.io/ru/public-dns.html](https://adguard-dns.io/ru/public-dns.html)
@@ -105,6 +108,7 @@ This repository contains links and configuration details for popular public DNS 
 3. Select Private DNS / Выберите Частный DNS
 4. Choose "Private DNS provider hostname" / Выберите "Имя хоста провайдера частного DNS"
 5. Enter one of the following / Введите один из следующих:
+   - Google: `dns.google`
    - Cloudflare: `security.cloudflare-dns.com`
    - AdGuard: `dns.adguard-dns.com`
 
